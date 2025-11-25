@@ -15,7 +15,7 @@ The solution focuses on clean UI, reusable components, strong folder structure, 
 ## 🚀 Live Demo  
 🔗 **Live URL:** _Add your Vercel / Netlify link here_  
 Example:  
-https://bounty-creation-application-platfor.vercel.app/bounty
+https://bounty-creation-application-platfor.vercel.app
 
 ---
 
