@@ -68,4 +68,75 @@ The app maintains internal state, validates all input fields, and ensures a smoo
 ---
 
 ## 📁 Folder Structure
+/src
+/components
+/ui # reusable UI components (Button, Input, Card, Toast etc)
+/bounty # bounty-related components (Sidebar, StepIndicator, etc)
+/context # form context providers for wizard state
+/hooks # custom hooks (useToast, useMobile)
+/pages # Step pages (BountyWizard, Success, NotFound)
+/utils # helpers, validators
+/styles # global styles
+main.tsx
+App.tsx
 
+
+### 🔹 Benefits of this structure:
+- Clear separation of concerns  
+- Reusability for UI & logic components  
+- Easy to scale  
+- Clean folder organization for reviewers  
+
+---
+
+## ⚙️ Setup & Running Locally
+
+### **1. Clone the repo**
+```bash
+git clone https://github.com/your-username/bounty-wizard.git
+cd bounty-wizard
+
+2. Install dependencies
+npm install
+
+3. Start development server
+npm run dev
+
+
+The app will open at:
+http://localhost:5173
+
+🏗️ Build & Production
+Build project
+npm run build
+
+Preview production build
+npm run preview
+
+Deployment
+
+This project can be deployed easily on:
+
+Vercel (recommended)
+
+Netlify
+
+GitHub Pages
+
+Render
+
+Example Vercel configuration:
+
+Build Command: npm run build
+
+Output Directory: dist
+
+📌 Assumptions / Limitations
+
+No backend API is used — all data is stored in React state only.
+
+File uploads (if any) are not stored on a server.
+
+Wizard resets on page refresh (unless extended with localStorage).
+
+UI is optimized for modern browsers only.
