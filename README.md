@@ -93,8 +93,8 @@ App.tsx
 
 ### **1. Clone the repo**
 ```bash
-git clone https://github.com/your-username/bounty-wizard.git
-cd bounty-wizard
+git clone https://github.com/msdinakar/Bounty-Creation-Application-Platform
+cd Bounty-Creation-Application-Platform
 
 2. Install dependencies
 npm install
