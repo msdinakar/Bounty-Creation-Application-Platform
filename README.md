@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# 🎯 Bounty Wizard – 3-Step Bounty Creation Flow
 
-## Project info
+A fully functional **3-step Bounty Creation Wizard** built using **React + Vite + TypeScript + Tailwind + shadcn/ui**.
 
-**URL**: https://lovable.dev/projects/5bfb6854-d21e-4ab9-bb23-eb771565fc66
+This project simulates a real-world bounty creation system including:
+- Step 1: Basic Details  
+- Step 2: Criteria / Rewards / Backers  
+- Step 3: Preview & Confirmation  
+- Final Success Page showing submitted bounty details  
 
-## How can I edit this code?
+The solution focuses on clean UI, reusable components, strong folder structure, and an intuitive wizard flow as required in the assignment.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Live Demo  
+🔗 **Live URL:** _Add your Vercel / Netlify link here_  
+Example:  
+https://bounty-wizard.vercel.app
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5bfb6854-d21e-4ab9-bb23-eb771565fc66) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📦 GitHub Repository  
+🔗 **Repository:** _Add your GitHub repo link here_  
+Example:  
+https://github.com/msdinakar/Bounty-Creation-Application-Platform
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧭 Project Overview
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project implements a **multi-step wizard** that guides the user through creating a bounty:
 
-Follow these steps:
+### **Step 1 – Brief**
+- Bounty title  
+- Description  
+- Problem statement  
+- Expected Deliverables  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### **Step 2 – Criteria**
+- Submission criteria  
+- Guidelines  
+- Evaluation methods  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### **Step 3 – Rewards / Backers**
+- Total reward  
+- Reward split  
+- Backers (name, contribution, optional details)
 
-# Step 3: Install the necessary dependencies.
-npm i
+### **Final – Success Page**
+- Displays complete summary of submitted bounty
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+The app maintains internal state, validates all input fields, and ensures a smooth step-by-step submission process.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Tech Stack
 
-**Use GitHub Codespaces**
+| Layer | Technologies Used |
+|------|--------------------|
+| **Frontend** | React, TypeScript, Vite |
+| **UI Framework** | Tailwind CSS, shadcn/ui Components |
+| **Icons** | Lucide React |
+| **Routing** | React Router (optional; depends on your implementation) |
+| **State Management** | React Context + Hooks |
+| **Build Tool** | Vite |
+| **Deployment** | Vercel / Netlify |
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📁 Folder Structure
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5bfb6854-d21e-4ab9-bb23-eb771565fc66) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
